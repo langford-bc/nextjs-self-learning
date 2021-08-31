@@ -1,0 +1,18 @@
+Aug.31
+
+#page set up - had troubles with package.json file; npm run dev didn't work
+ran npm init and then added script block from nextjs example to get project running
+
+#trouble with css - unresolved
+created a styles folder and added basic css for body, imported the css into pages/_app.js
+the styling didn't show up on the home page
+
+#want to fetch api data into home Component - renamed to blog
+steps:
+-implemented getStaticProps
+-references: YouTube video here https://youtu.be/bMORBmABx9w
+-NextJS documentation here: https://bit.ly/3Bz4DHH
+-how to do fetch data before b/c components are pre-rendered before they reach the browser - https://youtu.be/zueyEdRZQlk?t=93
+
+#how to verify what the data is and that it's coming from the server?
+use curl command in terminal curl http://localhost:3000
