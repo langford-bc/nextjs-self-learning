@@ -18,7 +18,7 @@ function Blog({ posts }) {
     <h1>This is a blog with content from an API</h1>
       <ul>
         {posts.map((post) => (
-          <li>{post.title}</li>
+          <li key={post.id}>{post.title}</li>
         ))}
       </ul>
     </>
